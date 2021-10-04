@@ -1,0 +1,26 @@
+{
+    "title": "Product Feedback Survey Example",
+    "showProgressBar": "top",
+    "pages": [
+        {
+            "elements": [
+                {
+                    "name": "date",
+                    "type": "datepicker",
+                    "inputType": "date",
+                    "title": "Your favorite date:",
+                    "dateFormat": "mm/dd/yy",
+                    "isRequired": true
+                },
+                {
+                    "name": "text-with-button",
+                    "type": "textwithbutton",
+                    "inputType": "text",
+                    "placeHolder":"a simple place holder",
+                    "title": "A text with button",
+                    "isRequired": true
+                }
+            ]
+        }
+    ]
+}
